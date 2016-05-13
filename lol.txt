@@ -1,0 +1,47 @@
+DEPART:
+
+Recherche des deux nombres premiers P et Q
+
+		|
+		V
+
+P * Q = n 
+PUIS 
+(P - 1) * (Q - 1) = O(barré)(n)
+
+		|
+		V
+PGCD (O(n),e) = 1 (verification de toute les valeurs de e > q)
+
+		|
+		V
+clé publique (n, e)
+
+		|
+		V
+
+transforme le "message" en HEX
+		
+		|
+		V
+
+caractère (HEX + e) % O(n) = Lettre crypter
+
+		|
+		V
+reconstitue le message crypter
+		
+		|
+		V
+
+decryptage
+concatene( c + d) % O(n)
+	
+		|
+		V
+
+hex vers latin
+
+		|
+		V
+reconstitution du message
